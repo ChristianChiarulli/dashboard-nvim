@@ -41,7 +41,7 @@ function! dashboard#instance(on_vimenter) abort
         \ bufhidden=wipe
         \ colorcolumn=
         \ foldcolumn=0
-        \ matchpairs=
+        " \ matchpairs=
         \ nobuflisted
         \ nocursorcolumn
         \ nocursorline
