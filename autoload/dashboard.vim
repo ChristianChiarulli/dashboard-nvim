@@ -37,21 +37,21 @@ function! dashboard#instance(on_vimenter) abort
     noautocmd enew
   endif
 
-  silent! setlocal
-        \ bufhidden=wipe
-        \ colorcolumn=
-        \ foldcolumn=0
-        " \ matchpairs=
-        \ nobuflisted
-        \ nocursorcolumn
-        \ nocursorline
-        \ nolist
-        \ nonumber
-        \ norelativenumber
-        \ nospell
-        \ noswapfile
-        \ signcolumn=no
-        \ synmaxcol&
+  " silent! setlocal
+  "       \ bufhidden=wipe
+  "       \ colorcolumn=
+  "       \ foldcolumn=0
+  "       \ matchpairs=
+  "       \ nobuflisted
+  "       \ nocursorcolumn
+  "       \ nocursorline
+  "       \ nolist
+  "       \ nonumber
+  "       \ norelativenumber
+  "       \ nospell
+  "       \ noswapfile
+  "       \ signcolumn=no
+  "       \ synmaxcol&
 
   " config the header margin-top
   call append('$', s:empty_lines)
